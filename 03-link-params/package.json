@@ -1,0 +1,14 @@
+{
+  "name": "03-link-params",
+  "version": "1.0.0",
+  "description": "For this exercise, you'll use a parameter to link the following web pages:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
