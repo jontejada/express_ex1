@@ -5,8 +5,9 @@ app.get('/', function(req,res) {
 	res.send('Hello, Express!');
 });
 
-app.get('/jon', function(req,res) {
-	res.send('Hello, Jon!');
+app.get('/:name', function(req,res) {
+	var name = req.params.name;
+	res.send('Hello, ' + name + '!');
 });
 
 app.listen(8000, function() {
