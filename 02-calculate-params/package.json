@@ -1,0 +1,14 @@
+{
+  "name": "02-calculate-params",
+  "version": "1.0.0",
+  "description": "For this exercise, you'll work with more than one parameter to create a simlple calculator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

@@ -1,3 +1,24 @@
+npm init
+npm install express --save
+touch server.js
+```
+var express = require('express');
+var app = express();
+app.get('/', function(req, res) {
+	//
+});
+app.listen(8000, function() {
+	console.log("Listening on port 8000...");
+});
+```
+git init
+touch .gignore
+```
+.DS_Store
+node_modules
+```
+
+
 ## Starter Guide
 1. Change into the directory of an exercise, for example `01-hello-param`:
 
