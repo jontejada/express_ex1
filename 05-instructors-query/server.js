@@ -31,7 +31,7 @@ app.get('/instructors', function(req, res) {
 		var output = '';
 		for (var i=0; i<instructors.length; i++) {
 			if (instructors[i][key].toLowerCase() === input) {
-				output += JSON.stringify(instructors[i]);
+				output += '<h2>' + JSON.stringify(instructors[i]) + '</h2>';
 			}
 		}
 		res.send(output);
